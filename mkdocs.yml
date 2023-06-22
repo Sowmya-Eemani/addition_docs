@@ -1,0 +1,11 @@
+site_name: addition
+site_dir: docs
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+nav:
+  - Calculation Docs: index.md
