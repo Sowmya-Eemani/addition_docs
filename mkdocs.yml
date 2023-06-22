@@ -1,0 +1,41 @@
+site_name: template-api-layer
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+# nav:
+#   - Calculation Docs: index.md
+#   - tutorials.md
+#   - How-To Guides: how-to-guides.md
+#   - app1.md
+#   - explanation.md
+
+nav:
+  - app1:
+    - 'admin.py': 'app1/admin.md'
+    - 'apps.py': 'app1/apps.md'
+    - 'models.py': 'app1/models.md'
+    - 'tests.py': 'app1/tests.md'
+    - 'urls.py': 'app1/urls.md'
+    - 'views.py': 'app1/views.md'
+  - data_sync:
+    - 'admin.py': 'data_sync/admin.md'
+    - 'apps.py': 'data_sync/apps.md'
+    - 'models.py': 'data_sync/models.md'
+    - 'tests.py': 'data_sync/tests.md'
+    - 'urls.py': 'data_sync/urls.md'
+    - 'views.py': 'data_sync/views.md'
+  - template_project:
+    - 'asgi.py': 'template_project/asgi.md'
+    - 'literals.py': 'template_project/literals.md'
+    - 'settings.py': 'template_project/settings.md'
+    - 'urls.py': 'template_project/urls.md'
+    - 'utils.py': 'template_project/utils.md'
+    - 'wsgi.py': 'template_project/wsgi.md'
+  - How-to-guides : how-to-guides.md
+  - Versions: versions.md
+  - Tutorials: tutorials.md
+  
